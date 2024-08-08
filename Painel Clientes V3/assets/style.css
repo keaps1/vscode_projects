@@ -33,8 +33,10 @@ form {
 }
 
 #cont-img {
+    flex-direction: column;
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     border-radius: 20px 0 0 20px;
     background-color: white;
     width: 50%;
@@ -42,7 +44,7 @@ form {
 }
 #cont-img > img {
     margin: 20px;
-    width: 10em;
+    width: 30em;
 }
 #cont-frm {
     flex-wrap: wrap;
