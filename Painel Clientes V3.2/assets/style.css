@@ -14,26 +14,32 @@ body {
 
 header {
     display: flex;
-
+    align-items: center;
     height: 96%;
     width: 96%;
-
     border-radius: 20px;
-    box-shadow: 1px 1px 5px;
+    box-shadow: 0px 1px 5px;
+    background-color: #a9c2c9;
 
-}
-
-.right-login {
-    width: 35%;
-    max-width: 500px;
-
-    background: rgb(238,238,238);
-    background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(164,178,254,1) 35%, rgba(83,109,254,1) 100%);
-    border-radius: 0 20px 20px 0;
 }
 
 .left-login {
     width: 100%;
-
+    background-size: cover;
     border-radius: 20px 0 0 20px;
+}
+
+.right-login {
+    width: 34%;
+    height: 96%;
+    max-width: 700px;
+    background: #562155;
+    box-shadow: 0 0 7px;
+    border-radius: 20px;
+}
+
+.right2-login {
+    width: 2%;
+    max-width: 30px;
+
 }
