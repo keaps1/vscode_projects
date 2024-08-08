@@ -39,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: azure;
 }
 
 header {
@@ -102,7 +103,7 @@ header {
     padding: 10px 0;
 }
 .text-login > input {
-    padding: 10px;
+    padding: 15px;
     width: 80%;
     border-radius: 10px;
     outline: none;
@@ -111,6 +112,8 @@ header {
 
 .text-botao {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     width: 100%;
     padding: 10px 0;
@@ -120,14 +123,18 @@ header {
     color: white;
     background-color: transparent;
     max-width: 170px;
-    width: 30%;
+    width: 70%;
     border: 2px solid white;
     text-decoration: none;
     outline: none;
     cursor: pointer;
     padding: 10px;
-    margin: 6px 0px;
+    margin: 8px 0px;
     border-radius: 8px;
+}
+
+.text-botao > input:hover {
+    background-color: var(--cor04);
 }
 
 .right2-login {
