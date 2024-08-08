@@ -50,7 +50,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 48%;
+    width: 50%;
     height: 96%;
     max-width: 700px;
     min-width: 400px;
@@ -65,6 +65,10 @@ header {
     margin: 10px;
     border-radius: 20px;
     background-color: #DC5F00;
+}
+
+.text-login {
+    padding: 10px;
 }
 
 .right2-login {
