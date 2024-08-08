@@ -9,11 +9,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 header {
-    height: 95%;
-    width: 95%;
     display: flex;
-    background-color: antiquewhite;
+
+    height: 96%;
+    width: 96%;
+
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px;
+
+}
+
+.right-login {
+    width: 35%;
+    max-width: 500px;
+
+    background: rgb(238,238,238);
+    background: linear-gradient(180deg, rgba(238,238,238,1) 0%, rgba(164,178,254,1) 35%, rgba(83,109,254,1) 100%);
+    border-radius: 0 20px 20px 0;
+}
+
+.left-login {
+    width: 100%;
+
+    border-radius: 20px 0 0 20px;
 }
