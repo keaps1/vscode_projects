@@ -78,19 +78,15 @@ body {
 
 form {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-direction: column;
     align-items: center;
-    height: 40%;
-}
-
-form > h1,h2 {
-    font-family: "Open Sans", sans-serif;
-    color: white;
+    height: 60%;
 }
 
 .btn-pass {
-    text-align: center;
+    align-self: center;
+    color: white;
     background-color: #ffffff4f;
     border: 2px solid white;
     text-decoration: none;
@@ -126,3 +122,6 @@ form > h1,h2 {
 }
 
 
+.allbtns {
+    align-self: center;
+}
