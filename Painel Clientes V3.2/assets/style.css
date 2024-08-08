@@ -24,22 +24,23 @@ header {
 }
 
 .left-login {
+    height: 100%;
     width: 100%;
     background-size: cover;
     border-radius: 20px 0 0 20px;
 }
 
 .right-login {
-    width: 34%;
+    width: 48%;
     height: 96%;
     max-width: 700px;
+    min-width: 400px;
     background: #562155;
     box-shadow: 0 0 7px;
     border-radius: 20px;
 }
 
 .right2-login {
-    width: 2%;
-    max-width: 30px;
+    width: 30px;
 
 }
