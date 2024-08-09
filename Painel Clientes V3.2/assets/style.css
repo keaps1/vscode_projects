@@ -94,7 +94,7 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85%;
+    width: 80%;
     height: 100%;
 }
 
@@ -125,6 +125,7 @@ header {
     text-align: center;
     padding: 15px;
     width: 100%;
+    max-width: 350px;
     border-radius: 10px;
     outline: none;
     border: none;
@@ -150,13 +151,13 @@ header {
     color: white;
     background-color: transparent;
     max-width: 220px;
-    width: 100%;
+    width: 80%;
     border: 2px solid white;
     text-decoration: none;
     outline: none;
     cursor: pointer;
     padding: 10px;
-    margin: 8px 0px;
+    margin: 16px 0px;
     border-radius: 8px;
 }
 
