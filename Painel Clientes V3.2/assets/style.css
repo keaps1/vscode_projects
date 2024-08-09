@@ -83,7 +83,16 @@ header {
     border-radius: 20px;
 }
 
-.right-login > img {
+.right-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    height: 100%;
+}
+
+.right-card > img {
     width: 120px;
     padding: 10px;
     margin: 10px;
@@ -91,7 +100,7 @@ header {
     background-color: #DC5F00;
 }
 
-.right-login > h2,p {
+.right-card > h2,p {
     font-family: "Roboto", sans-serif;
     color: white;
 }
