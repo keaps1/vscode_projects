@@ -53,6 +53,8 @@ header {
 
 }
 
+/* Lado esquerdo */
+
 .left-login {
     display: flex;
     flex-direction: column;
@@ -69,6 +71,8 @@ header {
     max-width: 850px;
 }
 
+/* Lado direito */
+
 .right-login {
     display: flex;
     flex-direction: column;
@@ -82,6 +86,8 @@ header {
     box-shadow: 0 0 3px;
     border-radius: 20px;
 }
+
+/* Card -n-direito */
 
 .right-card {
     display: flex;
@@ -104,6 +110,8 @@ header {
     font-family: "Roboto", sans-serif;
     color: white;
 }
+
+/* Elementos Card */
 
 .text-login {
     display: flex;
