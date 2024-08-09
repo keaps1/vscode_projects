@@ -39,6 +39,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    background-color: azure;
 }
 
 header {
@@ -51,8 +52,6 @@ header {
     background-color: var(--cor01);
 
 }
-
-/* Lado Esquerdo */
 
 .left-login {
     display: flex;
@@ -67,10 +66,8 @@ header {
 
 .left-login > img {
     width: 80%;
-    max-width: 800px;
+    max-width: 850px;
 }
-
-/* Lado Direito */
 
 .right-login {
     display: flex;
@@ -101,33 +98,23 @@ header {
 
 .text-login {
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     width: 100%;
     padding: 10px 0;
 }
-
 .text-login > input {
     padding: 15px;
-    text-align: center;
     width: 80%;
     border-radius: 10px;
     outline: none;
     border: none;
 }
 
-.text-login > label {
-    color: var(--cor01);
-    align-self: self-start;
-}
-
 .text-botao {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 120px;
+    justify-content: center;
     width: 100%;
     padding: 10px 0;
 }
@@ -135,19 +122,19 @@ header {
 .text-botao > input {
     color: white;
     background-color: transparent;
-    max-width: 240px;
-    width: 50%;
+    max-width: 170px;
+    width: 70%;
     border: 2px solid white;
     text-decoration: none;
     outline: none;
     cursor: pointer;
     padding: 10px;
-    margin: 12px 0px;
+    margin: 8px 0px;
     border-radius: 8px;
 }
 
-.text-botao > p {
-    padding: 10px;
+.text-botao > input:hover {
+    background-color: var(--cor04);
 }
 
 .right2-login {
